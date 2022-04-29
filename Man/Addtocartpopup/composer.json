@@ -1,0 +1,24 @@
+{
+    "name": "sandip5678/module-addtocartpopup",
+    "description": "Ajax cart",
+    "require": {
+        "php": "~7.0.0|~7.1.0|~7.2.0|~7.3.0|~7.4.0|~8.0.0|~8.1.0",
+		    "magento/module-store": "@stable",
+		    "magento/module-catalog": "@stable",
+		    "magento/framework": "@stable"
+    },
+    "type": "magento-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Man\\Addtocartpopup\\": ""
+        }
+    }
+}
